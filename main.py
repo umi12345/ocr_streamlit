@@ -20,7 +20,7 @@ if upload_file is not None:
     upper = image.height
 
     # サイドバーに追加
-    # 読み取り範囲の指定
+    #  # 読み取り範囲の指定
     st.sidebar.write('↓画像の読み取り範囲を指定してください')
     # x座標（横軸）
     x1, x2 = st.sidebar.slider('横軸', 0.0, float(lower), (10.0, float(lower-10.0)))
