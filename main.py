@@ -45,7 +45,7 @@ if upload_file is not None:
         from google.cloud import vision
         from google.oauth2 import service_account
         # jsonの読み込み
-        credentials = service_account.Credentials.from_service_account_info(["gcp_service_account]")
+        credentials = service_account.Credentials.from_service_account_info(["gcp_service_account"])
         client = vision.ImageAnnotatorClient(credentials=credentials)
 
         # 画像の読み込み
