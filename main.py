@@ -56,4 +56,5 @@ if upload_file is not None:
             texts = response.full_text_annotation.text
             st.write(texts)
 
+
                 
